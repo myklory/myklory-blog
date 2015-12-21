@@ -1,10 +1,13 @@
 title: 使用Hexo在github上搭建博客
 date: 2015-11-30 15:42:47
-tags: github hexo
+tags: [github, hexo]
 ---
+这里作为配置github博客的简单记录。
+<!--more-->
 ### **1. 注册github和生成博客空间**
 略
 ### **2. 安装Nodejs和hexo**
+关于hexo的具体使用可以参考[官方文档](https://hexo.io/zh-cn/docs/)。
 #### **2.1 安装Nodejs**
 [Node.JS](www.nodejs.org)
 #### **2.2 安装Hexo**
@@ -46,3 +49,10 @@ npm install hexo-deployer-git
 ### **4. 主题**
 暂略
 
+### **5. 使用自定义域名**
+在hexo的source目录下新建CNAME文件,文件名需要大写,在其中添加自定义域名(blog.myklory.com),执行hexo生成和发布命令,现在github博客仓库设置中可以看见github page的域名已经发生变化。
+![image](http://7xp3bw.com1.z0.glb.clouddn.com/gitpage.png)
+下一步配置阿里云的dns解析，具体配置见下图：
+![image](http://7xp3bw.com1.z0.glb.clouddn.com/aliyundns.png)
+需要注意的是在原github博客地址(myklory.github.io)后面要加上一个"."。
+配置完成后稍等几分钟访问[blog.myklory.com](blog.myklory.com)就可以打开本站。
