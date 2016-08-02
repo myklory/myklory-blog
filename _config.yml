@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: myklory
-subtitle:
-description:
-author: Eric
-language: zh-CN
+title: 年年有鱼
+subtitle: My life in the world
+description: 总有一天，我们会感谢我们曾经付出的努力！
+author: Myklory
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,7 +63,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yilia
+theme: next
+
+#百度统计
+#baidu_analytics: 33382e8661147db6cca0734c4fdd8ccd
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

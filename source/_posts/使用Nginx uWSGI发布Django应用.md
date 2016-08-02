@@ -1,11 +1,7 @@
 ﻿title: 使用Nginx uWSGI发布Django应用
-date: 2015-12-21 10:24:55
-tags： [Nginx, uWSGI, Django]
-
+date: 2015-9-24 08:48:55
+tags: [Nginx, uWSGI, Django]
 ---
-### 目录
-[TOC]
-
 这一篇本来应该最后来写的，但是昨天在阿里云上看见学生可以用9.9的价格购买低配的阿里云服务器。1核CPU，1G内存，15G流量，40G/20G系统盘。对于我等来说已经足够使用了。立马用小妹的身份买了一个。一晚上时间配置好了Nginx+uWSGI的Django环境。
 <!--more-->
 ### 1.为什么要用Nginx和uWSGI
@@ -280,7 +276,7 @@ command=/home/namine/env/django/bin/uwsgi /home/namine/www/amje/amje_uwsgi.ini
 directory=/home/namine/www/amje
 #运行命令的用户名
 user=root
-		
+
 autostart=true
 autorestart=true
 #日志地址
