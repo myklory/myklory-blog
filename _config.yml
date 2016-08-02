@@ -67,6 +67,11 @@ theme: next
 
 #百度统计
 #baidu_analytics: 33382e8661147db6cca0734c4fdd8ccd
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
