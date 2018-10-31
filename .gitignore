@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 themes/landscape/
+themes/next-5.1/
 *.swp
