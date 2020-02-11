@@ -1,9 +1,0 @@
-[submodule "themes/yilia"]
-	path = themes/yilia
-	url = https://github.com/litten/hexo-theme-yilia.git
-[submodule "themes/jacman"]
-	path = themes/jacman
-	url = https://github.com/wuchong/jacman.git
-[submodule "themes/next"]
-	path = themes/next
-	url = https://github.com/theme-next/hexo-theme-next.git
