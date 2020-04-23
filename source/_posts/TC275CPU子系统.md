@@ -1,10 +1,3 @@
-<!--
- * @Author: Liu.Yingming
- * @Date: 2020-02-18 13:33:58
- * @LastEditors: Liu.Yingming
- * @LastEditTime: 2020-02-18 14:58:01
- * @Description: 
- -->
 ---
 title: TC275CPU子系统
 date: 2020-02-18 13:33:58
